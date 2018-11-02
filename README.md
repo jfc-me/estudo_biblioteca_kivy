@@ -25,9 +25,11 @@ Conf gnu/linux:
 
 
 
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-export WORKON_HOME=~/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+add 1 : export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+
+add 2 : export WORKON_HOME=~/.virtualenvs
+
+add 3 : source /usr/local/bin/virtualenvwrapper.sh
 
 
 
