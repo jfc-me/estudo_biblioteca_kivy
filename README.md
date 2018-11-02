@@ -21,6 +21,13 @@ apt-get -y python-pip python3-pip build-essential git python python3 python-dev 
 sudo pip install virtualenvwrapper
 
 
+Conf gnu/linux:
+
+
+
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export WORKON_HOME=~/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
 
 
 
